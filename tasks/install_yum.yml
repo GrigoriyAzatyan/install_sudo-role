@@ -1,0 +1,6 @@
+---
+- name: Install sudo
+  become: true
+  yum:
+    name: sudo
+
